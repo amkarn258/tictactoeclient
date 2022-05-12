@@ -1,0 +1,37 @@
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  border: 5px solid #435da2;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  line-height: 4.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #435da2;
+}
+
+.row {
+  display: flex;
+}
+
+.btn {
+  float: right;
+  background-color: #87f8f3;
+  color: black;
+  font-size: larger;
+  border: 5px solid #435da2;
+}
