@@ -81,6 +81,7 @@ function App() {
       socket.emit('create', newRoomName);
       setRoom(newRoomName);
       setMyTurn(true);
+      setXO('X');
     }
     );
   })
